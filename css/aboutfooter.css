@@ -1,0 +1,34 @@
+/*Footer Start Design*/
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+}
+
+.footer-text p{
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--second-bg-color);
+    border-radius: .8rem;
+    transition: .5 ease;
+}
+
+.footer-iconTop a:hover{
+    box-shadow: 0 0 1rem var(--second-bg-color);
+}
+
+
+.footer-iconTop a i{
+    font-size: 2.4rem;
+    color: var(--bg-main);
+}
